@@ -33,6 +33,11 @@
                     </a>
                 </div>
 
+
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="{{ url('/plans') }}">Plans</a></li>
+                </ul>
+
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
