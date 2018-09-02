@@ -11,4 +11,10 @@ class PlansController extends Controller
     {
         return view('plans.index')->with(['plans' => Plan::get()]);
     }
+
+    public function show(Plan $plan)
+    {
+        return view('plans.show')->with(['plan' => $plan]);
+    }
+
 }
